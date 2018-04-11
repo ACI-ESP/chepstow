@@ -38,5 +38,10 @@ Development
 -----------
 The code mostly follows the [PEP8 coding standard](https://www.python.org/dev/peps/pep-0008/).
 If you are using PyCharm, it will highlight PEP8 issues.
+You can also manually run style checks with flake8 (pip install flake8):
+```bash
+flake8 chepstow
+```
+
 
 The docstrings are using the [Google standard](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html).

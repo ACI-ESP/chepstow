@@ -11,6 +11,9 @@ branches:
 install:
   - pip install nose
   - pip install python-coveralls coverage
+  - pip install flake8
+before_script:
+  - flake8 chepstow
 script:
   - nosetests --with-coverage
 after_success:
